@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  padding: 16px 78px;
+  background-color: #fff;
+  display: flex;
+  position:fixed;
+  width: 100%;
+  box-shadow: 0 1px 1px #ccc;
+}
+.logo-stories{
+  width: 148px;
+}
+.logo{
+  width: 148px;
+  font-size: 32px;
+  font-weight: 1000px;
+  color: #0084ff;
+  font-family: arial black;
+} 
+.stories{
+  font-weight: 500;
+  font-size: 20px;
+  font: raleway;
+  font-style: italic;
+  padding-top:0%;
+  position: absolute;
+  top: 46px;
+  margin-left: 2px;
+  }
+.explore{
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.techies{
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.button{
+  margin-left: 250px;
+  border-radius: 50px;
+  width: 180px;
+  height: 40px;
+  border: none;
+  background-color: #0084ff;
+  color: #fff;
+  margin-top: 10px;
+}
+.center {
+   width: 60%;
+   height: 20%;
+   padding: 10px;
+   margin-left: 17.5%;
+   margin-right: 17.5%;
+   padding-top: 100px;
+   /* border : 2px solid black; */
+}
+.categories{
+  padding: 3px 7px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px;
+  /* border : 2px solid black; */
+  margin-top: 10px;
+}
+.categories:hover{
+  background-color:#0084ff ;
+  color: #fff;
+}
+.categoriescontainer{
+  margin-bottom: 20px;
+  font-size: 14.5px;
+  padding-top: 16px;
+}
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 66%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 0px;  
+}
+.card {
+  width: 30%;
+  height: 400px;
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #90b1cf;
+}
+.card:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+}
+.item {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.image-section {
+  height: 176px;
+  width: 100%;
+  overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+
+.text-section {
+  padding: 10px 24px;
+  text-align: left;
+  
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  
+}
+
+.author-container {
+  padding-top: 4px;
+  
+}
+
+.author {
+  color: #0096ff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  }
+footer {
+  height: 200px;
+  Background-color: #0084ff;
+  padding-left: 280px;
+  padding-top: 50px;
+  color: #fff;
+  margin-top: 50px;
+}
